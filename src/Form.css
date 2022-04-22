@@ -1,0 +1,20 @@
+form {
+    margin: auto;
+  }
+  
+  input, button {
+    margin: 5px;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'Merriweather', serif;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 768px){
+      input, button {
+      width: 80%;
+    }
+  }
